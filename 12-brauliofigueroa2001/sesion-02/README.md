@@ -10,10 +10,14 @@ lunes 16 marzo 2026
 
 - README.md, es muy importante, es donde están las instrucciones de cómo usar un software o un hardware. La documentación técnica la mostraremos siempre en markdown
 
-- ejemplo, la documentación de  [https://github.com/matbutom] es muy buena
+- ejemplo, la documentación de [mateo](https://github.com/matbutom) es muy buena
   
-- pandoc.org
+- [pandoc.org](https://oshwa.org/)
 
-- 
+- instalaremos arduino, probablemente es de los últimos cursos en los que Aarón enseñará arduino
+
+- [oshwa.org](https://oshwa.org/)
+
+- las herramientas que utilizaremos serán opensource
 
 
