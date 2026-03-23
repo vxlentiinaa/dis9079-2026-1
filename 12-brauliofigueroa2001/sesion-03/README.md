@@ -55,3 +55,13 @@ vscode
 - while(true) esto es verdad, podría no ser verdad, si lo que preguntamos no es verdad, se salta estas líneas
 
 - el ejemplo que haremos de prender el led es como el blink de arduino pero más cuma
+
+### break
+
+- me perdi un poco los 15 min iniciales porque estaba afuera
+
+- utilizaremos mermaid para solemne 1 para diagrama de flujo
+
+- probaremos códigos
+
+- aarón dejó pdfs de raspberry, uno inicial y otro con todo lo que se puede hacer, están en sesión 3
