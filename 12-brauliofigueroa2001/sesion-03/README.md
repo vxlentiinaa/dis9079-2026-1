@@ -33,3 +33,25 @@ lunes 23 de marzo de 2026
 - descargamos visualstudiocode y la biblioteca oficial de raspberry pico, la que tiene el ticket azul
 
 - tarea, ver el primer capítulo de monty python
+
+- i2c ocupa menos cables, spi ocupa más cables, los componentes de i2c suelen ser luca más caro pero vale la pena para ahorrarse tiempo
+
+vscode
+
+- build estará cambiando constantemente
+
+- .gitignore
+
+- archivo.cpp , si no nos dice .cpp y dice c, es porque no hicimos click en el ticket de hacerlo en c++
+
+- aquí no hay setup y loop
+
+- en raspberry hay un main() , abajo tiene un { todo lo que está dentro de main ocurre en ese orden
+
+- stdio_iit_all(); significa préndete, prende todas las cosas
+
+- cyw43 es el chip que permite el wifi
+
+- while(true) esto es verdad, podría no ser verdad, si lo que preguntamos no es verdad, se salta estas líneas
+
+- el ejemplo que haremos de prender el led es como el blink de arduino pero más cuma
