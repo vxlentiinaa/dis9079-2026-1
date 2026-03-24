@@ -21,7 +21,8 @@ Idealmente para proyectos avanzados de automatización y control inalámbrico.
 ## Para la placa Arduino usaremos el software Arduino IDE que ya instalamos.
 
 para la placa Raspberry Pi usaremos una herramienta de desarrollo profesional llamada Visual Studio Code, que se puede descargar en https://code.visualstudio.com/.
-entramos a sección Extensions, y buscamos la extensión Raspberry Pi Pico de autores Raspberry Pi, y la instalamos.
+
+Entramos a sección Extensions, y buscamos la extensión Raspberry Pi Pico de autores Raspberry Pi, y la instalamos.
 
 revisamos el documento Getting Started que está en esta misma carpeta. también se incluye la versión completa de la documentación.
 
