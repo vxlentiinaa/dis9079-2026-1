@@ -34,7 +34,7 @@
         sleep_ms(1000);
     }
 
-![titulo](./imagenes/frambuesapi.jpg) 
+
 
 ---
 
@@ -42,12 +42,15 @@
 + BeagleBoard
 + Bela Platform
 + Electro-Smith
+
 ---
 
 ## **Mainframe**
 + Computadora alto rendimiento
 + Gran capacidad memoria y rendimiento
 + Gestiona transacciones en tiempo real
+
+  
 ---
 
 ## **Atari**
