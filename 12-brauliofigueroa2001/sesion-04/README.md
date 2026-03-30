@@ -80,7 +80,7 @@ corrección del error
 
 - cuando nos conectamos, ingresamos la ip en el navegador y se desplegará una página que dice "click here to turn on led" y "click here to turn off led"
 
-- 
+- parece que no funcionó, nadie pudo encender el led desde su pc, solo mateo pero al parecer la idea era que todos pudiéramos
 
   
 
