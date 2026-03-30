@@ -56,6 +56,16 @@ CÓDIGO EN ARDUINO
 
 - no se pudo arreglar el código de momento, a las 15:38, ampliaremos.
 
+corrección del error
+
+- mosquitto no está corriendo porque acaban de cambiar el archivo de claves
+
+- no he entendido mucho otras cosas del por qué ocurrió el error
+
+- sudo chown, sudo cmod, es durísimo, es como la versión lector cuando entras a un excel, el modo en el que se establece eso
+
+- 
+
 - 
 
 - 
