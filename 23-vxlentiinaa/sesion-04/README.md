@@ -23,7 +23,6 @@ lunes 30 marzo 2026
   - tener el broker en mosquitto 
 - Model OSI > capas de comunicación
 - sobre wifi se usa la estrategia mqtt
-- UDP: mensajes entre canales > ht[UDP](tps://en.wikipedia.org/wiki/User_Datagram_Protocol)
-
-
-  
+- UDP: mensajes entre canales > [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
+- `Simple webserver` en arduino docs > [SIMPLE WEBSERVER WIFI](https://docs.arduino.cc/retired/library-examples/wifi-library/SimpleWebServerWiFi/)
+- 
