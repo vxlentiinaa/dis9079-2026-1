@@ -144,4 +144,18 @@ Serial.println("Luz apagada. ");
 
 - paso a paso de la instalación de la librería de adafruit IO en el software de Arduino
 
+![instalacion](./imagenes/instalacionadafruit1.JPG)
+
+- vamos a las bibliotecas en arduino y descargamos la de adafruit
+
+![instalacion](./imagenes/instalacionadafruit2.JPG)
+
+- nos pedirá eso y aceptamos todo
+
+![cuenta](./imagenes/creandocuentadafruit1.JPG)
+
+- creamos cuenta con nuestro correo, debiera aparecer un ícono amarillo arriba a la derecha, con mis credenciales, no me aparece nada
+
+
+
 
