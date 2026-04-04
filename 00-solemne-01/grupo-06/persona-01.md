@@ -72,7 +72,7 @@ También me parece interesante que, a pesar de ser una placa pequeña, tiene muc
 
 <img width="1620" height="1080" alt="image" src="https://github.com/user-attachments/assets/7d808ed7-975e-4f84-914b-6d753789ed4d" />
 
-*Créditos Imagen: https://assets.raspberrypi.com/static/f79040e1bd32ada87432d60365b2c902/6176f/RP2350.jpg*
+*Créditos Imagen: https://raspberrypi.cl/products/raspberry-pi-pico-2-w-con-headers?variant=47160238244018
 
 Me gusta el logo de frambuesa, es muy cute <3
 
@@ -82,6 +82,17 @@ En nuestro proyecto, la Raspberry Pi Pico 2 W cumple el rol de receptor, ya que 
 
 Esto me ayudó a entender cómo distintos dispositivos pueden comunicarse entre sí y cómo algo físico puede responder a datos que vienen desde la nube.
 
+## Fuentes de Información
+
+https://mcielectronics.cl/shop/product/74358/?srsltid=AfmBOorPc8vYPX7ZT3WFb0O20SOzW3Kpq1OABx9OQNK9RxAZsK4xQ8bk
+
+https://www.adafruit.com/product/6315?srsltid=AfmBOooCI-VvwXbqNj1umTWqqU9FtEmD9xpv22hs1DFe2ul9eDtabYbt
+
+https://raspberrypi.cl/products/raspberry-pi-pico-2-w-con-headers?variant=47160238244018
+
+https://pip-assets.raspberrypi.com/categories/1005-raspberry-pi-pico-2/documents/RP-008302-DS-2-pico-2-product-brief.pdf?disposition=inline
+
+https://cursos.mcielectronics.cl/2025/08/12/introduccion-a-raspberry-pi-pico-2-y-pico-2-w/
 
 
 *[Texto de investigación redactado personalmente y reestructurado con ayuda de ChatGPT + toques personales]*
