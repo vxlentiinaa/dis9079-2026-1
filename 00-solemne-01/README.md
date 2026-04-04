@@ -154,7 +154,7 @@ para actualizar el firmware de tu placa, debes seguir los siguientes pasos:
 1. en Arduino IDE ir al menú `Tools` y seleccionar `Firmware Updater`.
 2. en la ventana emergente seleccionar tu placa.
 3. hacer click en el botón `Check for Updates` para verificar si hay una actualización disponible.
-4. si hay una actualización disponible, hacer click en el botón `Update Firmware` para iniciar el proceso de actualización.
+4. si hay una actualización disponible, hacer click en el botón `Update Firmware` para iniciar el proceso de actualización, en mi caso tenía en mi placa la versión `0.5.2` y la actualización la hice a la más reciente en abril 2026, la `0.6.0`.
 5. esperar a que el proceso de actualización se complete, esto puede tardar varios minutos, así que ten paciencia y no desconectes tu placa durante el proceso.
 6. una vez que la actualización se complete, tu placa ya no tendrá el código que habías subido.
 7. vuelve a subirlo, y revisa que ya no te aparezca el mensaje de error sobre el firmware desactualizado.

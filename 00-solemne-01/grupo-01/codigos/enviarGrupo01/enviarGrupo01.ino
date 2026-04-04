@@ -77,7 +77,7 @@ void loop()
 
   // enviar el contador a Adafruit IO
   // primero mostrar en monitor serial
-  Serial.print("enviando -> " + String(contador));
+  Serial.println("enviando -> " + String(contador));
   // despues enviar a la nube
   nombreFeed->save(contador);
 
