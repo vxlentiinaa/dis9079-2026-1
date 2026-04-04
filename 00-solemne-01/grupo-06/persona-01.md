@@ -16,7 +16,7 @@ Lo primero que hice fue entrar a la página de Adafruit io https://io.adafruit.c
 <img width="1919" height="932" alt="image" src="https://github.com/user-attachments/assets/959b7ec6-33b3-4d65-9c8a-2ffaf9e0ae81" />
 
 
-## Despliegue de guías - Selección de "Primeros pasos con Arduino" o "Gettin Started With Arduino" en idioma original
+## Despliegue de guías - Selección de "Primeros pasos con Arduino" o "Getting Started With Arduino" en idioma original
 
 <img width="1125" height="769" alt="image" src="https://github.com/user-attachments/assets/3663ef69-d585-4961-874e-195db31c6281" />
 
