@@ -183,8 +183,17 @@ Serial.println("Luz apagada. ");
 
 - no sé si hice algo mal o no o quizá es porque el firmware de mi placa sí estaba actualizado
 
-- hasta ahí llegué de momento, quería ver el tutorial oficial de la página que mandaron pero el link aparece malo y tengo hartas dudas así que le preguntaré a aarón mañana
+- hasta ahí llegué de momento, quería ver el tutorial oficial de la página que mandaron pero el link aparece malo
 
+actualización 6 de abril en la mañana con aarón
+
+- en la mañana aarón me dijo que revisara bien las credenciales porque vió mi clave y efectivamente no eran las credenciales exactas, la password era la que me da la página, no la que yo le asigno a mi cuenta
+
+- por obvios motivos no colocaré mis credenciales lol
+
+- al colocar correctamente las credenciales y el nombre y la clave del wifi, enviamos el código y abrimos nuestra cuenta de adafruit, sucedió lo siguiente:
+
+- 
 
 
 
