@@ -8,10 +8,40 @@
 
 ## Descripción del proyecto
 
+## Sistema Enviar
+
+![titulo](./imagenes/armadosistemaenviar.jpeg)
 
 ![titulo](./imagenes/primerapruebapotenciometro.gif)
 
 ![titulo](./imagenes/pruebabrilloledadafruitio.png)
+
+
+## Sistema Recibir
+
+![titulo](./imagenes/armadosistemarecibir.jpeg)
+
+![titulo](./imagenes/Raspberry-Pi-Pico-2-W-Pinout.webp)
+
+![titulo](./imagenes/instalación-raspberrypiboards.jpeg)
+
+![titulo](./imagenes/error-arduinoide.jpeg)
+
+
+## Aarón nos ayuda en el Lid
+
+![titulo](./imagenes/ayudadeaaronenlid.jpeg)
+
+
+## Prueba sin potenciómetro
+
+![titulo](./imagenes/pruebaledsinpotenciometro.jpeg)
+
+![titulo](./imagenes/pruebalederror.gif)
+
+![titulo](./imagenes/lednodeclarado.jpeg)
+
+![titulo](./imagenes/leddeclarado.jpeg)
 
 
 ## Materiales usados en Solemne-01
