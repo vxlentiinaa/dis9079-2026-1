@@ -32,6 +32,8 @@
 
 ## imágenes
 
+![led a tiempo real](./imagenes/ledenclase.gif)
+
 ## investigaciones individuales
 
 rellenar en el mismo orden que los integrantes del grupo
