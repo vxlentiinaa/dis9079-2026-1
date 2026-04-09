@@ -122,3 +122,46 @@ void loop()
 ```
 
 este fue parte del trabajo en clases en grupo 
+
+### Investigación Adafruit IO
+
+Conceptos básicos de Adafruit IO: Fuentes de datos:
+
+1. Adafruit IO: Feeds
+
+Los feeds son el componente central del ecosistema Adafruit IO. Funcionan como el repositorio donde se almacenan y organizan tanto los datos enviados por los dispositivos como sus metadatos asociados.
+
+Conceptos Fundamentales: Datos
+
+Es la información técnica que se desea almacenar. Puede representar objetos físicos o variables lógicas
+
+- Valores de sensores (temperatura, humedad, presión).
+- Estados de actuadores (encendido/apagado).
+- Variables de control (velocidad de motores).
+
+2. Metadatos
+
+Configuraciones que definen el comportamiento y contexto del feed
+
+- **Privacidad:** Determina si los datos son públicos o privados.
+- **Licencia:** Especifica los derechos de uso de los datos almacenados.
+- **Descripción:** Información legible por personas para documentar el propósito del feed.
+
+3. Modos de Implementación
+
+La gestión de los feeds depende del método de interacción con la plataforma
+
+´Interacción mediante API (MQTT / REST)´
+
+Para usuarios que desarrollan su propio código, la gestión es manual y granular.
+
+- **Regla:** Se debe crear un feed por cada origen de datos único.
+- **Ejemplo:** Un proyecto con un sensor de temperatura y dos de humedad requiere la creación de **tres feeds** distintos.
+
+´Uso con WipperSnapper (No-Code)´
+
+Para usuarios que utilizan la plataforma de configuración sin código, la gestión es automatizada.
+
+- **Funcionamiento:** Los feeds se crean automáticamente al momento de añadir un nuevo componente a la placa desde el panel de control de Adafruit IO.
+
+*información sacada de: <https://learn.adafruit.com/adafruit-io-basics-dashboards>*
