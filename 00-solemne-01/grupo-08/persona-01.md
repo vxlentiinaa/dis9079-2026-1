@@ -105,9 +105,13 @@ Código con adafruit IO
 
 - Lo que sí hallé fue un proyecto OpenSource que mezcla computación + electrónica + inalámbrico y lo bueno es que hay mucha información sobre este mismo
 
-- Donkeycar es una biblioteca minimalista y modular de conducción autónoma para Python. Está desarrollada para aficionados y estudiantes, con un enfoque en permitir una experimentación rápida y facilitar las contribuciones de la comunidad. Se utiliza activamente a nivel de enseñanza media y universitaria para aprendizaje e investigación. Ofrece una interfaz gráfica completa e incluye un simulador para que puedas experimentar con conducción autónoma incluso antes de construir un robot.
+- La información a continuación está sacada directamente de la página y traducida con ChatGPT, también hay parafraseos de mi parte y reflexiones
 
-- Con esta plataforma es posible conducir tu coche con tu teléfono o un portátil, grabar imágenes, ángulos de dirección y aceleraciones, y lo más interesante, entrenar a pilotos de redes neuronales para que conduzcan tu coche en diferentes pistas.
+- Fue desarrollado por Will Roscoe y Adam Conway entre 2016-2017, luego se fueron sumando más personas al equipo como Tawn Kramer y Dirk Prange
+
+- Donkeycar es una biblioteca minimalista y modular de conducción autónoma para Python. Está desarrollada para aficionados y estudiantes, con un enfoque en permitir una experimentación rápida y facilitar las contribuciones de la comunidad. Se utiliza activamente a nivel de enseñanza media y universitaria para aprendizaje e investigación. Ofrece una interfaz gráfica completa e incluye un simulador para que puedas experimentar con conducción autónoma incluso antes de construir un robot
+
+- Con esta plataforma es posible conducir tu coche con tu teléfono o un portátil, grabar imágenes, ángulos de dirección y aceleraciones, y lo más interesante, entrenar a pilotos de redes neuronales para que conduzcan tu coche en diferentes pistas
 
 ![donkeycar](./imagenes/donkeycar2.png)
 
@@ -133,7 +137,7 @@ fuente: [docs.donkeycar](https://docs.donkeycar.com/)
 
 -  Python: No necesitas programar para usar Donkeycar. El archivo que editas para configurar tu auto, myconfig.py, es un archivo de Python. En la mayoría de los casos, solo tienes que descomentar las secciones que quieres modificar y editarlas. Puedes evitar errores comunes si entiendes cómo funcionan los comentarios y la indentación en Python
 
--  Raspberry PI: La Raspberry Pi es el computador principal recomendado para un Donkeycar. Es útil haberla configurado y utilizado antes, pero no es obligatorio. La documentación de Donkeycar explica cómo instalar el software en Raspberry Pi OS, pero los detalles específicos —como instalar el sistema usando Raspberry Pi Imager o configurar la Raspberry Pi con raspi-config— se dejan a la documentación oficial de Raspberry Pi, que es bastante completa y de buena calidad.
+-  Raspberry PI: La Raspberry Pi es el computador principal recomendado para un Donkeycar. Es útil haberla configurado y utilizado antes, pero no es obligatorio. La documentación de Donkeycar explica cómo instalar el software en Raspberry Pi OS, pero los detalles específicos —como instalar el sistema usando Raspberry Pi Imager o configurar la Raspberry Pi con raspi-config— se dejan a la documentación oficial de Raspberry Pi, que es bastante completa y de buena calidad
 
 Se recomienda configurar tu Raspberry Pi usando esa documentación y luego experimentar un poco con ella
 
@@ -151,7 +155,7 @@ fuente: [donkey](https://docs.donkeycar.com/guide/build_hardware/)
 
 - Otro paso importantes es el uso de un servoShield que lo debemos conectar a la raspberry pi
 
-- El controlador de servos PCA9685 puede controlar hasta 16 dispositivos PWM como servos, controladores de motor, LEDs o casi cualquier cosa que utilice una señal PWM. Se conecta a la Raspberry Pi (o Jetson Nano) mediante el bus GPIO de 40 pines a través de los pines I2C.
+- El controlador de servos PCA9685 puede controlar hasta 16 dispositivos PWM como servos, controladores de motor, LEDs o casi cualquier cosa que utilice una señal PWM. Se conecta a la Raspberry Pi (o Jetson Nano) mediante el bus GPIO de 40 pines a través de los pines I2C
 
 - No conocía este controlador en verdad, me sorprende harto que pueda mover tantos dispositivos pwm, brígido
 
@@ -176,40 +180,82 @@ fuente: [digipart](https://www.digipart.com/part/PCA9685PW118?kw=PCA9685PW118&ut
 
  ![raspi](./imagenes/raspiSetup.JPG)
 
-- Los componentes de software de Donkeycar deben instalarse en la plataforma robótica que elijas. Raspberry Pi y Jetson Nano cuentan con documentación de instalación, pero también se sabe que funciona en Jetson TX2, Friendly Arm SBC o casi cualquier SBC (computador de placa única) basado en Debian.
+- Los componentes de software de Donkeycar deben instalarse en la plataforma robótica que elijas. Raspberry Pi y Jetson Nano cuentan con documentación de instalación, pero también se sabe que funciona en Jetson TX2, Friendly Arm SBC o casi cualquier SBC (computador de placa única) basado en Debian
 
-- Después de la instalación, crearás la aplicación de Donkeycar a partir de una plantilla. Esta contiene código diseñado para que lo personalices según tu caso particular. No te preocupes, comenzaremos con configuraciones predeterminadas útiles.
+- Después de la instalación, crearás la aplicación de Donkeycar a partir de una plantilla. Esta contiene código diseñado para que lo personalices según tu caso particular. No te preocupes, comenzaremos con configuraciones predeterminadas útiles
 
 **Crear la aplicación del auto**
 
-- Hay dos formas de configurar Donkeycar, ambas crean un archivo personalizado myconfig.py que tendrás en tu directorio mycar.
+- Hay dos formas de configurar Donkeycar, ambas crean un archivo personalizado myconfig.py que tendrás en tu directorio mycar
 
-- La primera es la más fácil: utiliza el configurador web y simplemente recorre las pestañas seleccionando las opciones necesarias según tu configuración.
+- La primera es la más fácil: utiliza el configurador web y simplemente recorre las pestañas seleccionando las opciones necesarias según tu configuración
 
-- Para la mayoría de las personas, la primera pestaña (Hardware) es suficiente para confirmar qué tipo de tren de tracción y qué joystick/control estás usando.
+- Para la mayoría de las personas, la primera pestaña (Hardware) es suficiente para confirmar qué tipo de tren de tracción y qué joystick/control estás usando
 
-- Luego guarda el archivo myconfig.py generado en tu computador y transfiérelo a tu Raspberry Pi usando tu aplicación de transferencia FTP favorita, como FileZilla.
+- Luego guarda el archivo myconfig.py generado en tu computador y transfiérelo a tu Raspberry Pi usando tu aplicación de transferencia FTP favorita, como FileZilla
 
-- Si está utilizando una placa controladora de servos PCA9685, asegúrese de poder verla en I2C.
+- Si está utilizando una placa controladora de servos PCA9685, asegúrese de poder verla en I2C
 
 - Existe una serie larga de pasos adicionales que no añadiremos para ir a explicar cómo se maneja el auto
 
 **Manejar el auto**
 
-- Coloca tu auto en un lugar seguro donde las ruedas no toquen el suelo.
+- Coloca tu auto en un lugar seguro donde las ruedas no toquen el suelo
 
-- Este es el momento en que el auto puede salir disparado.
+- Este es el momento en que el auto puede salir disparado
 
 - Abre la carpeta de tu auto e inícialo:
 
 - cd ~/mycar
 - python manage.py drive
 
-- Este script iniciará el ciclo de conducción de tu auto, que incluye un componente que actúa como servidor web para que puedas controlarlo.
+- Este script iniciará el ciclo de conducción de tu auto, que incluye un componente que actúa como servidor web para que puedas controlarlo
 
 - Ahora puedes controlar tu auto desde un navegador web en la dirección:
 - <nombre-de-tu-auto.local>:8887
 
 - Lo que entiendo, con mis palabras, es que dentro de la raspi que está conectada a wifi, existe un servidor web en el que tenemos iniciado nuestro código de python,en el cuál podríamos cambiar ciertos parámetros, al conectarnos a este servidor web y abrir la carpeta del auto en python, podemos manejarlo, la verdad es muy complejo de entender. Se parece a cuando intentamos establecer conexión con el mqtt de raspi, conectábamos raspi a wifi, dentro de ese raspi estaba el servidor mqtt con un cierto seteo, es algo parecido lo que imagino
 
-![
+![seteo](./imagenes/manejarDonkey.JPG)
+
+- nos muestran esta aplicación, que por lo que entiendo, es la que creamos y está dentro del servidor en la Raspi
+
+- nos dan opciones para manejar nuestro auto, el foro dice que hay 3 formas de mover el vehículo en el controlador web que tenemos:
+
+- Inclinación del dispositivo (Device Tilt)
+
+- Selecciona Device Tilt en la sección Control Mode del controlador web. Luego selecciona User en la sección Mode
+
+Después puedes inclinar tu teléfono:
+
+- hacia adelante → aumenta la aceleración
+- de lado a lado → gira la dirección
+
+  Joystick
+
+- Selecciona Joystick en la sección Control Mode del controlador web. Luego selecciona User en la sección Mode
+
+- Aparecerá un joystick virtual que puedes usar tocando y arrastrando:
+
+- hacia arriba → acelera
+- hacia abajo → disminuye o retrocede
+- hacia la izquierda → gira a la izquierda
+- hacia la derecha → gira a la derecha
+
+- Al soltar el dedo, el auto se detiene.
+
+ Control (Gamepad)
+
+- Si tienes un control conectado (por cable o Bluetooth) al dispositivo desde el que estás viendo la interfaz web, y es compatible con la API de Gamepad de HTML5, puedes seleccionarlo
+
+- Selecciona Gamepad en Control Mode y luego User en Mode.
+
+- Después podrás manejar el Donkeycar usando el control.
+
+- Por lo que entiendo y leo, todas estas opciones de manejo están dentro del controlador web que creamos anteriormente. Creo que el proyecto es muuuy complejo, de lo que leí entendí poco y me faltaron hartos pasos por documentar porque es demasiada información, es el proyecto más extenso que he visto en verdad, me gustaría en algún momento poder hacer algo así
+
+links utilizados:
+
+- [donkeycar](https://docs.donkeycar.com/)
+- [niubit](https://niubit.es/proyectos/97-open-source/106-donkey-car)
+- [github](https://github.com/autorope/donkeycar?tab=readme-ov-file)
