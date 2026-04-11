@@ -4,9 +4,11 @@ lunes 30 marzo 2026
 
 La comunicación entre dispositivos se basa en ideas de Claude Shannon, quien desarrolló la teoría de la información. 
 
-Él explicó cómo los datos se pueden transmitir, codificar y recibir entre distintos sistemas sin perder información. (chatgpt)
+Él explicó cómo los datos se pueden transmitir, codificar y recibir entre distintos sistemas sin perder información.
 
-Esto es clave hoy en tecnología, porque permite que dispositivos como Arduino y Raspberry se comuniquen a través de redes (como WiFi) y protocolos como MQTT.
+Esto es clave hoy en tecnología, porque permite que dispositivos como Arduino y Raspberry se comuniquen a través de redes (como WiFi) y protocolos como MQTT.  (chatgpt)
+
+ ![foto](./imagenes/teoria.png)
 
 Es mejor usar un router que compartir internet desde el celular, porque soporta más equipos conectados al mismo tiempo
 
