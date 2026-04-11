@@ -9,11 +9,9 @@ De primeras segui las indicaciones de como crearme una cuenta en adafruit y todo
 
 Resulta que si era el cable, logramos correr el codigo y prender luces en el arduino pero tengo dificultades con la conexion con adafruit, estoy revisando bien las credenciales y vere un tutorial
 
-Otro aprendizaje, revisamos bien el contenido y en arduino los valores que habia que cambiar por las credenciales nuestras, lo hicimos mal, y estbamos usando la contraseña personal mas no la que te da el sitio, la aio key.
-Por otro lado intrusiando logramos conectar la raspberry pi a Adafruit
 
-LOGRAMOS CONECTARLO!!!!!
-encontramos un sitio de tutoriales en la pagina de adafruit, seguimos las indicaciones y aun no resultaba y aaron nos actualizo el arduino, que era el gran problema, luego de eso se conecto sin problema, probamos con el block "stream" en dashboard como decia en el ejemplo
+SE LOGRO CONECTAR!!!!!
+vi un sitio de tutoriales en la pagina de adafruit, segui las indicaciones y aun no resultaba y aaron actualizo el arduino, que era el gran problema, luego de eso se conecto sin problema, probe con el block "stream" en dashboard como decia en el ejemplo
 https://learn.adafruit.com/adafruit-io-basics-esp8266-arduino/example-sketches
 
 ![runway](./imagenes/contador.png)
