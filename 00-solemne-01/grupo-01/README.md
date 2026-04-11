@@ -475,6 +475,14 @@ Aprendimos como grupo a ser constantes y no rendirnos hasta lograr el objetivo d
 |---|---|
 | <img src="./imagenes/vxlentiinaa_imagenes/estado.gif" alt="estado" width="300"> | <img src="./imagenes/vxlentiinaa_imagenes/data.gif" alt="data" width="300"> |
 
+### documentación final
+
+<img src="./imagenes/OLEDfinal.gif" alt="final" width="500">
+
+<img src="./imagenes/interaccion.gif" alt="final" width="500">
+
+<img src="./imagenes/imagenFinal.jpg" alt="final" width="500">
+
 ## investigaciones individuales
 
 [sofiacartes.md](./persona-01.md)
@@ -489,3 +497,4 @@ Aprendimos como grupo a ser constantes y no rendirnos hasta lograr el objetivo d
 - Arduino libraries Adafruit IO <https://docs.arduino.cc/libraries/adafruit-io-arduino/>
 - Adafruit IO <https://learn.adafruit.com/adafruit-io/arduino>
 - Adafruit IO overview <https://io.adafruit.com/vxlentiinaa/overview>
+- Wokwi Pantalla OLED animator <https://animator.wokwi.com/>
