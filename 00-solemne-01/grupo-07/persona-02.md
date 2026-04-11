@@ -12,6 +12,8 @@ investigaciones individuales
 
 ![artista](imagenes/sara-ludy.jpeg) 
 
+>**"I make art because it's the most natural way for me to understand fundamental aspects of being and what it means to be alive on our planet"**
+
 Sara Ludy es una artista interdisciplinaria estadounidense, combina diferentes medios y técnicas para realizar sus obras, utiliza la pintura digital, realidad virtual,sonido, páginas Web,instalaciones, animación entre otros .
 
 Sara es reconocida por ser una de las figuras más reconocidas en el arte que explora el espacio virtual y nuestra identidad en relación con estos entornos.
