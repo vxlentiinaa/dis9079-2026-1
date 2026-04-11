@@ -47,7 +47,7 @@ En general me llamó la atención que las descargas fueran tan rápidas, pensé 
 
 # Producto Elegido -> ***Raspberry Pi Pico 2 W***
 
-<img width="1000" height="1000" alt="pi-pico-2W" src="https://github.com/user-attachments/assets/c656b73e-61c7-4020-a148-aea33a9df131" />
+![Placa](./imagenes/pi-pico-2W.png)
 
 *Créditos Imagen: https://mcielectronics.cl/shop/product/74358/?srsltid=AfmBOorPc8vYPX7ZT3WFb0O20SOzW3Kpq1OABx9OQNK9RxAZsK4xQ8bk*
 
@@ -89,7 +89,7 @@ También me parece interesante que combine lo físico (cables, LED, sensores) co
 
 Finalmente, el hecho de que tenga WiFi integrado la hace mucho más potente, ya que no depende solo de conexiones físicas, sino que permite trabajar con sistemas más complejos y actuales, como el Internet de las Cosas.
 
-<img width="1620" height="1080" alt="image" src="https://github.com/user-attachments/assets/7d808ed7-975e-4f84-914b-6d753789ed4d" />
+![Raspberry Pi Pico 2W](./imagenes/logoframbuesa.jpg)
 
 *Créditos Imagen: https://raspberrypi.cl/products/raspberry-pi-pico-2-w-con-headers?variant=47160238244018*
 
