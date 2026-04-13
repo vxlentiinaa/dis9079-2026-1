@@ -118,3 +118,9 @@ Tipos de obras que hace.
 https://www.flong.com/archive/bio/en/index.html
 
 https://www.flong.com/archive/projects/messa_inst/index.html
+
+https://learn.adafruit.com/welcome-to-adafruit-io
+
+https://learn.adafruit.com/series/adafruit-io-basics
+
+https://learn.adafruit.com/mqtt-adafruit-io-and-you/getting-started-on-adafruit-io
