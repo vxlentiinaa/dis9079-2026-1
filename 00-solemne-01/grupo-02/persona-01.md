@@ -10,7 +10,7 @@ investigaciones individuales
 
 Dentro de **Adafruit IO**, un **dashboard** es el panel visual donde se ve y controla un proyecto desde el navegador. Ahí puedes poner bloques como gráficos, botones, sliders, indicadores o medidores para observar lo que está pasando.
 
-Un **feed** es el canal donde se guarda una variable o flujo de datos. almacenan los datos y metadatos enviados a IO. osea el sensor de pulso, podría tener un feed llamado pulsometro donde se van guardando los valores BPM luego ese feed se conecta a un gráfico o indicador dentro del dashboard para poder verlo en tiempo real.
+Un **feed** es el canal donde se guarda una variable o flujo de datos. Se almacenan los datos y metadatos enviados a IO. o sea el sensor de pulso, podría tener un feed llamado pulsómetro donde se van guardando los valores BPM luego ese feed se conecta a un gráfico o indicador dentro del dashboard para poder verlo en tiempo real.
 
 `los feeds son el núcleo del sistema y que los bloques del dashboard se enlazan a uno o más feeds.`
 
